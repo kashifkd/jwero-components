@@ -1,5 +1,5 @@
 {
-  "name": "jwero-storybook",
+  "name": "@kashifd/jwero-components",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -41,5 +41,22 @@
     "storybook": "^8.1.11",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashifkd/jwero-components.git"
+  },
+  "keywords": [
+    "jwero",
+    "components",
+    "storybook"
+  ],
+  "author": "Kashif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashifkd/jwero-components/issues"
+  },
+  "homepage": "https://github.com/kashifkd/jwero-components#readme"
 }
