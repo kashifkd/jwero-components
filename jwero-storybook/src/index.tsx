@@ -1,1 +1,1 @@
-export * from "./components/JweroPrimaryButton";
+export { default as JweroPrimaryButton } from './components/JweroPrimaryButton';
