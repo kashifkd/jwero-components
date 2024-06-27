@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "declarationDir": "./dist/types",
-    "declaration": true,
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
@@ -24,7 +21,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "typeRoots": ["./dist/index.d.ts"],
+    "declaration": true
   },
-  "include": ["src"]
+  "include": ["src", "./index.ts"]
 }
