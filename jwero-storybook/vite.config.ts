@@ -8,6 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.tsx'),
       name: 'JweroComponents',
+      formats: ['es', 'cjs'],
       fileName: (format) => `jwero-components.${format}.js`,
     },
     rollupOptions: {
